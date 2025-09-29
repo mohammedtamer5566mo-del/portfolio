@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #222831;
+  color: #eeeeee;
+  line-height: 1.6;
+}
+
+/* ---------- Header ---------- */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navigation a {
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  color: #00adb5;
+}
+
+/* ---------- Hero ---------- */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.name {
+  font-size: 2.5rem;
+}
+
+.title {
+  font-size: 3rem;
+  color: #00adb5;
+}
+
+.heroBtns {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.hireMe,
+.cv {
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.hireMe {
+  background: #00adb5;
+}
+
+.cv {
+  background: #393e46;
+}
+
+/* ---------- About Me ---------- */
+.aboutMe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+  gap: 50px;
+}
+
+.aboutMeParagraf {
+  color: #cccccc;
+  text-align: justify;
+}
+
+/* ---------- Works ---------- */
+.works {
+  background: #1a1f25;
+  padding: 80px 20px;
+  margin: 80px 0;
+}
+
+.worksContainer {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.works ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.works li {
+  background: #393e46;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.works img {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  transition: transform 0.2s;
+}
+
+.works img:hover {
+  transform: scale(1.2);
+}
+
+/* ---------- Contact ---------- */
+.contactContainer {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.contact {
+  margin: 30px 0;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.socialMedia a {
+  background: #393e46;
+  padding: 10px;
+  border-radius: 50%;
+  display: inline-flex;
+}
+
+.socialMedia img {
+  width: 24px;
+  height: 24px;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+}
